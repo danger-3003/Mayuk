@@ -25,7 +25,7 @@ function WhyUs() {
                     Why Choose Us?
                 </p>
             </div>
-            <div className="flex items-center justify-center flex-wrap gap-5">
+            <div className="flex items-center justify-center flex-wrap gap-5 mb-10">
                 <div className="border-[#44a8ff] hover:border-[#fff] border-2 relative w-60 px-5 py-2 text-sm text-[#fff] group transition-all duration-300">
                     <div className="bg-[#014783] w-10 absolute -top-3 left-3 flex items-center justify-center group-hover:scale-125 transition-all duration-300">
                         <FontAwesomeIcon icon={faUsers} className="text-[#fff] text-xl" />
@@ -58,7 +58,31 @@ function WhyUs() {
                     <p className="text-[#44a8ff] group-hover:text-[#fff] transition-all duration-300">Adherence to national and international
                     safety protocols.</p>
                 </div>
-
+            </div>
+            <div className="flex items-center justify-center flex-col w-auto sm:w-[40rem]">
+                <p className="font-[Montserrat] font-semibold text-xl sm:text-2xl md:text-3xl text-white mb-5">Industries We Serve</p>
+                <div className="flex items-center justify-center flex-wrap gap-5">
+                    <div className="flex items-center justify-start flex-row bg-white rounded-full p-1 w-60 sm:w-72">
+                        <div className="flex items-center justify-center bg-[#fe3032] w-10 h-10 rounded-full"><p className="text-white font-bold">1</p></div>
+                        <div className="font-bold text-[#014783] pl-2">Manufacturing Plants</div>
+                    </div>
+                    <div className="flex items-center justify-start flex-row bg-white rounded-full p-1 w-60 sm:w-72">
+                        <div className="flex items-center justify-center bg-[#fe3032] w-10 h-10 rounded-full"><p className="text-white font-bold">2</p></div>
+                        <div className="font-bold text-[#014783] pl-2">Commercial Complexes</div>
+                    </div>
+                    <div className="flex items-center justify-start flex-row bg-white rounded-full p-1 w-60 sm:w-72">
+                        <div className="flex items-center justify-center bg-[#fe3032] w-10 h-10 rounded-full"><p className="text-white font-bold">3</p></div>
+                        <div className="font-bold text-[#014783] pl-2">Apartment Buildings</div>
+                    </div>
+                    <div className="flex items-center justify-start flex-row bg-white rounded-full p-1 w-60 sm:w-72">
+                        <div className="flex items-center justify-center bg-[#fe3032] w-10 h-10 rounded-full"><p className="text-white font-bold">4</p></div>
+                        <div className="font-bold text-[#014783] pl-2">Warehouses</div>
+                    </div>
+                    <div className="flex items-center justify-start flex-row bg-white rounded-full p-1 w-60 sm:w-72">
+                        <div className="flex items-center justify-center bg-[#fe3032] w-10 h-10 rounded-full"><p className="text-white font-bold">5</p></div>
+                        <div className="font-bold text-[#014783] pl-2">Educational Institutions</div>
+                    </div>
+                </div>
             </div>
         </div>
     );
