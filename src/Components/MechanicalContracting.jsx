@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/Services/mechContracting.svg";
+import Image from "../assets/Services/mechContracting.png";
 
 function CivilContracting() {
     return (
