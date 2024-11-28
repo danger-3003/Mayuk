@@ -57,7 +57,7 @@ function Contact() {
     return (
         <div
             ref={contactSection}
-            className="flex items-center justify-center flex-wrap flex-col md:flex-row gap-10 py-20 bg-[#fff]"
+            className="flex items-center justify-center flex-wrap flex-col md:flex-row gap-10 py-20 bg-[#f5f5f5]"
         >
             <div className="flex items-center justify-center flex-col">
                 <p className="text-2xl font-extrabold font-[Montserrat] text-center md:text- w-full text-[#fe3032]">

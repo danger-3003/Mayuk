@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import Bg from "../assets/Home/Header.jpg";
 import Hanger from "../assets/Home/Hanger.png";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useLocation } from "react-router-dom";
 
 function Home() {
@@ -49,6 +51,9 @@ function Home() {
                 </div>
                 <img src={Hanger} alt={Hanger} className="absolute -top-5 right-0 h-48 md:h-60 lg:h-80" />
             </div>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=8247092491" className="bg-emerald-600 flex items-center justify-center p-2 rounded-full h-10 w-10 fixed bottom-10 right-5 sm:right-10 z-[10] animate-bounce">
+                <FontAwesomeIcon icon={faWhatsapp} className="text-2xl text-white"/>
+            </a>
         </div>
     );
 }
