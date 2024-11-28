@@ -12,7 +12,7 @@ function NavBar() {
     }
 
     return (
-        <div className="bg-[#fff] fixed z-[5] w-full h-max py-1 flex items-center justify-center md:justify-between font-[Comfortaa] px-5 md:px-10 shadow-md shadow-[#00000015]">
+        <div className="bg-[#fff] fixed z-[5] w-full h-max py-1 flex items-center justify-center md:justify-between font-[Comfortaa] sm:px-5 md:px-10 shadow-md shadow-[#00000015]">
             <div>
                 <img src={Logo} alt="Logo" className="w-40 sm:h-14 pl-0 md:-pl-5"/>
             </div>

@@ -68,7 +68,7 @@ function Footer() {
                                 className=" mr-3"
                             />
                             <a
-                                href="https://maps.app.goo.gl/jRJvMaCVj99bm3nd6"
+                                href="https://maps.app.goo.gl/KwjhBVc6zw1HXg589"
                                 target="_blank"
                             >
                                 D.NO 38-19-10/2/14, Flat NO 504, Varahalureddy
