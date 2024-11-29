@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import Civil from "../Components/CivilContracting";
 import Mech from "../Components/MechanicalContracting";
 import Electrical from "../Components/ElectricalContracting";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Services() {
     const location=useLocation();
@@ -37,8 +39,8 @@ function Services() {
     return (
         <>
             <div ref={serviceSection} className="py-10 md:pb-10 pt-20 sm:px-7 md:px-10 flex items-center justify-center flex-col font-[Comfortaa]">
-                <div className="font-[Montserrat] font-bold text-2xl md:text-3xl lg:text-4xl text-[#014783] ">Our Services</div>
-                <div className="flex items-center justify-between flex-row text-[0.7rem] sm:text-sm mt-6 sm:mt-10 md:text-base w-60 sm:w-[20rem] md:w-[25rem]">
+                <div data-aos="fade-up" className="font-[Montserrat] font-bold text-2xl md:text-3xl lg:text-4xl text-[#014783] ">Our Services</div>
+                <div data-aos="fade-up" className="flex items-center justify-between flex-row text-[0.7rem] sm:text-sm mt-6 sm:mt-10 md:text-base w-60 sm:w-[20rem] md:w-[25rem]">
                     <div className={`w-min text-center hover:cursor-pointer ${isCivil?"text-[#014783] font-black":"text-gray-500"}`} onClick={handleCivil}>
                         <p>Civil Contracting</p>
                     </div>
@@ -49,7 +51,7 @@ function Services() {
                         <p>Mechanical Contracting</p>
                     </div>
                 </div>
-                <div className="flex items-center justify-around relative my-5 w-60 sm:w-[20rem] md:w-[25rem]">
+                <div data-aos="fade-up" className="flex items-center justify-around relative my-5 w-60 sm:w-[20rem] md:w-[25rem]">
                     <div onClick={handleCivil} className={`${isCivil?"bg-[#8d8dff] shadow-md shadow-[#00000081]":"bg-gray-300"} relative z-[2] rounded-full w-5 h-5 flex items-center justify-center hover:cursor-pointer transition-all duration-500`}>
                         <div className={`${isCivil?"bg-[blue]":"bg-gray-400"} w-2 h-2 rounded-full transition-all duration-500`}></div>
                     </div>

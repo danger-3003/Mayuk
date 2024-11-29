@@ -1,7 +1,13 @@
-import React from "react";
+import {useEffect} from "react";
+import AOS from "aos"
+import "aos/dist/aos.css"
 import Image from "../assets/Services/mechContracting.png";
 
 function CivilContracting() {
+    useEffect(()=>{
+        AOS.init({duration:1000});
+        AOS.refresh();
+    });
     return (
         <div className="flex items-center justify-center flex-col">
             <div className="font-[Montserrat] font-semibold text-[#fe3032] text-xl sm:text-2xl md:text-3xl my-5">Mechanical Contracting</div>
