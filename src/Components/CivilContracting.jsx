@@ -1,7 +1,7 @@
 import {useEffect} from "react";
 import AOS from "aos"
 import "aos/dist/aos.css"
-import Image from "../assets/Services/civilContracting.png";
+import Image from "../assets/Services/CivilContracting.png";
 
 function CivilContracting() {
     useEffect(()=>{
