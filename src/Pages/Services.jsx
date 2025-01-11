@@ -38,7 +38,7 @@ function Services() {
 
     return (
         <>
-            <div ref={serviceSection} className="py-10 md:pb-10 pt-20 sm:px-7 md:px-10 flex items-center justify-center flex-col font-[Comfortaa]">
+            <div ref={serviceSection} className="py-10 md:pb-10 pt-20 sm:px-7 md:px-10 flex items-center justify-center flex-col font-[Comfortaa] overflow-x-hidden">
                 <div data-aos="fade-up" className="font-[Montserrat] font-bold text-2xl md:text-3xl lg:text-4xl text-[#014783] ">Our Services</div>
                 <div data-aos="fade-up" className="flex items-center justify-between flex-row text-[0.7rem] sm:text-sm mt-6 sm:mt-10 md:text-base w-60 sm:w-[20rem] md:w-[25rem]">
                     <div className={`w-min text-center hover:cursor-pointer ${isCivil?"text-[#014783] font-black":"text-gray-500"}`} onClick={handleCivil}>

@@ -29,7 +29,7 @@ function WhyUs() {
         <>
             <div
                 ref={whySection}
-                className="bg-[#014783] pt-20 sm:px-7 md:px-10 py-10 font-[Comfortaa] flex items-center justify-center flex-col w-full"
+                className="bg-[#014783] pt-20 sm:px-7 md:px-10 py-10 font-[Comfortaa] flex items-center justify-center flex-col relative overflow-x-hidden w-full"
             >
                 <div data-aos="fade-up">
                     <p className="font-[Montserrat] text-white font-bold text-2xl sm:text-3xl md:text-4xl mb-10">
@@ -96,9 +96,9 @@ function WhyUs() {
                     </div>
                 </div>
             </div>
-            <div className="py-10 flex items-center justify-center flex-col ">
+            <div className="py-10 flex items-center justify-center flex-col overflow-x-hidden relative">
                 <p data-aos="fade-up" className="font-[Montserrat] text-[#fe3032] font-bold text-2xl sm:text-3xl md:text-4xl mb-10">Our Process</p>
-                <div className="flex items-center justify-center flex-wrap gap-5 w-auto md:w-[35rem]">
+                <div className="flex items-center justify-center flex-wrap gap-5 w-auto md:w-[35rem] overflow-x-hidden">
                     <div data-aos="fade-left" className="w-52 md:w-60 relative">
                         <div className="flex items-center justify-center absolute bg-[#fe3032] w-7 h-7 rounded-full">
                             <p className="text-white font-bold">1</p>

@@ -20,7 +20,7 @@ function About() {
     });
 
     return (
-        <div ref={aboutSection} className="flex items-center justify-center flex-wrap sm:flex-row-reverse px-5 sm:px-7 md:px-10 pb-5 md:pb-10 pt-20 gap-5 font-[Comfortaa]">
+        <div ref={aboutSection} className="flex items-center justify-center flex-wrap sm:flex-row-reverse px-5 sm:px-7 md:px-10 pb-5 md:pb-10 pt-20 gap-5 font-[Comfortaa] overflow-x-hidden">
             <div data-aos="fade-left" className="w-[30rem] sm:w-[20rem] md:w-[25rem] lg:w-[30rem] xl:w-[40rem] flex items-center sm:items-end justify-center flex-col">
                 <p className="font-[Montserrat] font-bold text-[#014783] text-2xl md:text-3xl lg:text-4xl text-center sm:text-right">About</p>
                 <p className="my-5 text-sm md:text-base text-center sm:text-right">
