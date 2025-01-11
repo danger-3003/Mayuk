@@ -36,12 +36,12 @@ function Footer() {
                 <Link className="text-center hover:text-[#fe3032]" to="/#whyus">
                     WhyUs
                 </Link>
-                <Link
+                {/* <Link
                     className="text-center hover:text-[#fe3032]"
                     to="/#gallery"
                 >
                     Gallery
-                </Link>
+                </Link> */}
                 <Link
                     className="text-center hover:text-[#fe3032]"
                     to="/#contact"

@@ -24,7 +24,7 @@ function NavBar() {
                 <Link className="px-5 md:px-0 py-1 text-center w-full md:w-auto hover:text-[#fe3032]" to="/#about" onClick={handleMenu}>About</Link>
                 <Link className="px-5 md:px-0 py-1 text-center w-full md:w-auto hover:text-[#fe3032]" to="/#services" onClick={handleMenu}>Services</Link>
                 <Link className="px-5 md:px-0 py-1 text-center w-full md:w-auto hover:text-[#fe3032]" to="/#whyus" onClick={handleMenu}>WhyUs</Link>
-                <Link className="px-5 md:px-0 py-1 text-center w-full md:w-auto hover:text-[#fe3032]" to="/#gallery" onClick={handleMenu}>Gallery</Link>
+                {/* <Link className="px-5 md:px-0 py-1 text-center w-full md:w-auto hover:text-[#fe3032]" to="/#gallery" onClick={handleMenu}>Gallery</Link> */}
                 <Link className="px-5 md:px-0 py-1 text-center w-full md:w-auto hover:text-[#fe3032]" to="/#contact" onClick={handleMenu}>Contact US</Link>
             </div>
         </div>
